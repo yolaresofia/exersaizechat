@@ -9,7 +9,19 @@ p {
 body {
   background: #272726;
   background-image: url('/resources/bkgrnd.png');
+  font-family: Share Tech Mono;
+}
 
+
+.buttonBack {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #f32b11;
+  background: none;
+}
+
+.ahref {
+  color: #f32b11 !important;
 }
 
 .containerall{
@@ -151,3 +163,13 @@ div#controls {
       text-indent: -1.25em;
       width: 90%;
     }
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
